@@ -8,7 +8,6 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Live Demo](#live-demo)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -42,10 +41,6 @@
     <li>Node.js</li>
 </ul>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- will be available soon
-
 ##
 
 <!-- Features -->
@@ -54,6 +49,7 @@
 
 - **React App Setup**
 - **Linters setup**
+- **Calculator**
 
 
 
@@ -107,7 +103,9 @@ Project can be deployed by using the gh-pages and other web platforms.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Calculator**
+- [ ] **Math Logic**
+- [ ]  **HomePage**
+- [ ]  **Quotes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
