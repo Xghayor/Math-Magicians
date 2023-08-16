@@ -42,10 +42,6 @@
     <li>Node.js</li>
 </ul>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- will be available soon
-
 ##
 
 <!-- Features -->
@@ -54,6 +50,7 @@
 
 - **React App Setup**
 - **Linters setup**
+- **Calculator**
 
 
 
@@ -107,7 +104,9 @@ Project can be deployed by using the gh-pages and other web platforms.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Calculator**
+- [ ] **Math Logic**
+- [ ]  **HomePage**
+- [ ]  **Quotes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
