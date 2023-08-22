@@ -30,6 +30,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .button-container button {
   padding: 20px;
   border: 1px solid #c2c2c2;
@@ -41,17 +42,8 @@
   margin: 2px;
 }
 
-.button-container button:active {
-  background-color: #c0c0c0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 /* Operator Buttons */
-.operators {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 .operators button {
   padding: 20px;
   border: 1px solid #c2c2c2;
@@ -60,6 +52,17 @@
   font-size: 24px;
   color: white;
   transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.button-container button:active {
+  background-color: #c0c0c0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .operators button:active {
@@ -79,7 +82,6 @@
   appearance: none;
   margin: 0;
 }
-
 
 @keyframes bubble {
   0% {
