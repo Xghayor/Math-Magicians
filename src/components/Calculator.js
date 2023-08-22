@@ -29,6 +29,7 @@ const Calculator = () => {
     setCalculatorState(updatedState);
   };
   return (
+
     <div className="calc-container">
       <input
         type="number"

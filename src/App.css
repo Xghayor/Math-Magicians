@@ -1,30 +1,30 @@
+/* Calculator Container */
 .calc-container {
-  width: 400px;
+  width: 350px;
+  margin: 2.5% auto;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: #f0f0f0;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10% auto;
+  grid-gap: 10px;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  appearance: none;
-  margin-right: 3px;
-}
-
+/* Calculator Input */
 .calc-container input[type="number"] {
-  text-align: right;
-  font-size: 20px;
-  color: white;
-  border: 1px solid rgb(150, 146, 146, 0.5);
-  background-color: rgb(41, 40, 46, 0.5);
   grid-column: span 4;
-  padding: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #d1d1d1;
+  font-size: 24px;
+  text-align: right;
+  color: #333;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Number Buttons */
 .button-container {
   grid-column: span 3;
   display: grid;
@@ -32,37 +32,55 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .button-container button {
-  padding: 15px;
-  border: 1px solid rgb(203, 200, 200);
+  padding: 20px;
+  border: 1px solid #c2c2c2;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  font-size: 24px;
+  color: #333;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  margin: 2px;
 }
+
+/* Operator Buttons */
 
 .operators button {
-  padding: 15px;
-  background-color: rgb(255, 183, 0);
-  border: 1px solid rgb(150, 146, 146, 0.5);
+  padding: 20px;
+  border: 1px solid #c2c2c2;
+  border-radius: 50%;
+  background-color: #f2a93b;
+  font-size: 24px;
+  color: white;
+  transition: background-color 0.2s, box-shadow 0.2s;
 }
 
-.button-container button:nth-last-child(2) {
-  grid-column: span 2;
+.button-container button:active {
+  background-color: #c0c0c0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .operators {
-  grid-column: 4;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.button-container button:active {
-  background-color: rgb(207, 207, 206);
-  border-color: rgb(100, 96, 96, 0.5);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+.operators button:active {
+  background-color: #ffc56e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.operators button:active {
-  background-color: rgb(251, 208, 148);
-  border-color: rgb(100, 96, 96, 0.5);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+/* Special Styling for Spanning Buttons */
+.button-container button:nth-last-child(2) {
+  grid-column: span 2;
+}
+
+/* Hide Spin Buttons */
+.calc-container input[type="number"]::-webkit-inner-spin-button,
+.calc-container input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 
 @keyframes bubble {
@@ -106,4 +124,12 @@ input[type="number"]::-webkit-outer-spin-button {
 .bubble:nth-child(3) {
   animation-delay: 0.4s;
   background-color: #3282f3;
+}
+
+.math-element {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0 0 20px;
+  text-align: left;
 }
