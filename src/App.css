@@ -4,8 +4,8 @@
   grid-template-columns: repeat(4, 1fr);
   background-color: #f0f0f0;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10% auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  margin: 8.2% auto;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -13,6 +13,8 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   appearance: none;
   margin-right: 3px;
+  border-radius: 10px;
+
 }
 
 .calc-container input[type="number"] {
@@ -29,6 +31,7 @@ input[type="number"]::-webkit-outer-spin-button {
   grid-column: span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  
 }
 
 .button-container button {
@@ -106,4 +109,13 @@ input[type="number"]::-webkit-outer-spin-button {
 .bubble:nth-child(3) {
   animation-delay: 0.4s;
   background-color: #3282f3;
+}
+
+
+.math-element {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+ margin: 20px 0px 0px 20px;
+  text-align: left;
 }

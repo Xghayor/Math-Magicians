@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Quote.css';
 
 function Quotes() {
   const [data, setData] = useState([]);
@@ -49,10 +50,13 @@ function Quotes() {
   return (
     <ul>
       {data.map((item) => (
-        <li key={`${item.id}`}>
-          {item.quote}
-          <br />
-          <strong>{item.author}</strong>
+        <li key={`${item.id}`} className="quote-box">
+          <div className="quote">
+            {item.quote}
+          </div>
+          <div className="author">
+            <strong>{item.author}</strong>
+          </div>
         </li>
       ))}
 
