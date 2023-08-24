@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Quote.css';
 
+const apiKey = process.env.REACT_APP_API_KEY;
+
 function Quotes() {
   const [data, setData] = useState([]);
   const [hasError, setHasError] = useState(false);
@@ -11,7 +13,7 @@ function Quotes() {
     const fetchData = async () => {
       try {
         const headers = {
-          'X-Api-Key': '3DPT6zJuhp6ivWqildtvnA==aOy3cSTtq3BUgEhT',
+          'X-Api-Key': apiKey,
         };
 
         const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=happiness', {
