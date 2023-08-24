@@ -47,11 +47,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **React App Setup**
-- **Linters setup**
 - **Calculator**
-
-
+- **Quotes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,9 +100,7 @@ Project can be deployed by using the gh-pages and other web platforms.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Math Logic**
-- [ ]  **HomePage**
-- [ ]  **Quotes**
+- [ ] **Deployment**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
