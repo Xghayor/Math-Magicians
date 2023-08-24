@@ -43,7 +43,6 @@ describe('calculate function', () => {
     });
   });
 
-
   it('should handle multiplication correctly', () => {
     const initialState = {
       total: '10',
@@ -73,14 +72,6 @@ describe('calculate function', () => {
   });
 });
 
-
-
-
-
-
-
 //   it('should handle division correctly', () => {
-    
-//   });
 
- 
+//   });
