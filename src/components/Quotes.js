@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Quote.css';
 
-const apiKey = process.env.REACT_APP_API_KEY;
+const apiKey = process.env.REACT_APP_NOT_SECRET_CODE;
 
 function Quotes() {
   const [data, setData] = useState([]);
