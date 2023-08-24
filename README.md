@@ -43,6 +43,12 @@
 
 ##
 
+<!-- live demo -->
+
+## 🚀 Live Demo <a name="live-demo" target="_blank"></a>
+
+- [Kindly Click Here to open the demo ](https://math-magicians-project-eif6.onrender.com)
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
