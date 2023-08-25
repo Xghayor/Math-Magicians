@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "REACT_APP_NOT_SECRET_CODE=$REACT_APP_NOT_SECRET_CODE react-scripts build",
+    "build": "./render-build.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
