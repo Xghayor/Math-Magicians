@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="home-container"
+  >
+    <h2
+      class="home-title"
+    >
+      Welcome to Math Magicians
+    </h2>
+    <div
+      class="home-content"
+    >
+      <p>
+        Explore the world of mathematics with Math Magicians. Whether you are a student, educator, or just someone curious about math, you will find fascinating topics, interactive tools, and helpful resources here.
+      </p>
+      <p>
+        Explore the world of mathematics with Math Magicians. Whether you are a student, educator, or just someone curious about math, you will find fascinating topics, interactive tools, and helpful resources here.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
