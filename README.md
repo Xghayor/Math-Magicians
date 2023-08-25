@@ -47,7 +47,7 @@
 
 ## 🚀 Live Demo <a name="live-demo" target="_blank"></a>
 
-- [Kindly Click Here to open the demo ](https://xghayor.github.io/Calculator)
+- [Kindly Click Here to open the demo ](https://xghayor.github.io/Math-Magicians/)
 
 <!-- Features -->
 
